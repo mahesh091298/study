@@ -2,6 +2,7 @@ function trueorfalse(maheshistrue){
     if(maheshistrue){
         return "yes he is true";
     }
+    
     return "no he is wrong";
 }
 undefined
