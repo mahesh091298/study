@@ -1,0 +1,11 @@
+for(var i=0;i<=5;i++){
+    console.log(i)}
+VM1708:2 0
+VM1708:2 1
+VM1708:2 2
+VM1708:2 3
+VM1708:2 4
+VM1708:2 5
+undefined
+The service worker navigation preload request was cancelled before 'preloadResponse' settled. If you intend to use 'preloadResponse', use waitUntil() or respondWith() to wait for the promise to settle.
+The service worker navigation preload request was cancelled before 'preloadResponse' settled. If you intend to use 'preloadResponse', use waitUntil() or respondWith() to wait for the promise to settle.
