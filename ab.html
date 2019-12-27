@@ -1,0 +1,21 @@
+<html>
+<script>
+function person(fname,lname){ 
+    var firstname = fname; 
+    var lastname = lname; 
+  
+    var getDetails_noaccess = function(){ 
+        return ('frist name is :${fristname},last name:${lastname}'); 
+    } 
+  
+    this.getDetails_access = function(){ 
+       return ('frist name is :{fristname},last name:{lastname}'); 
+     
+    } 
+} 
+var person1 = new person('Mahesh','manoj'); 
+console.log(person1.firstname); 
+console.log(person1.getDetails_noaccess); 
+console.log(person1.getDetails_access());
+</script>
+</html> 
