@@ -1,0 +1,23 @@
+<html>
+<script>
+function armstrong()
+{
+var flag ,num,rem,add=0;
+flag=num;
+while(num>0)
+{
+rem=num%10;
+add=add+rem*rem*rem;
+num=praseInt(num/10);
+}
+if(add==flag)
+{
+console.log("the input isarmstrong");
+}
+else
+{
+console.log("the input is not armstrong");
+}
+}
+</script>
+</html>
